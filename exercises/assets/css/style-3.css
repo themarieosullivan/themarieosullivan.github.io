@@ -4,7 +4,7 @@
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
 body { max-width: 1600px; line-height: 1.5; margin-left: auto; margin-right: auto; 
-min-height: 100vh; text-rendering: optimizeSpeed }  
+min-height: 100vh; text-rendering: optimizeSpeed;background-color: purple; }  
 img { width: 100%; height: auto; display: block }
 h1, h2, h3, h4 { width: 100% }
 input, button, textarea, select { font: inherit }
@@ -23,6 +23,7 @@ h1 {
     text-align: center;
     font-weight: normal;
     letter-spacing: 4px;
+    color: white;
 }
 
 h2 {
@@ -30,6 +31,7 @@ h2 {
     margin-bottom: 4px;
     margin-top: 54px;
     text-transform: uppercase;
+    color: white;
 }
 
 p {
@@ -37,4 +39,5 @@ p {
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
+    color: white;
 }
