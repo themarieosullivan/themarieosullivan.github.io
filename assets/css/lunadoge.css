@@ -2037,7 +2037,7 @@ footer p.privacy a:hover, footer p.privacy a:active {
     display: flex;
     justify-content: space-between;
     padding: 0 6% 0 0;
-    background-color: lightpink;
+    background-color: var(--ontrend-800);
 }
 
 /* Website logo */
