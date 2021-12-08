@@ -135,10 +135,9 @@
 
 /* Global font */
 body { font-family: var(--global-font) }
-}
 .theme-one a:link { background-color: var(--green-100) } 
 .theme-one a:visited { background-color: var(--green-100) } 
-.theme-one {background-color: var (--ontrend-500);}
+
 .theme-one h2 {color: var (--white-000)}
 .theme-one h3 {color:var (--white-000)}
 .theme-one .upper-label {color:var(--white-000)}
@@ -149,16 +148,16 @@ body { font-family: var(--global-font) }
 .theme-one a:focus {color: var(--ontrend-500)}
 .theme-one a:hover {color:var(--ontrend-500)}
 .theme-one a:active {color: var(--ontrend-500)}
-.theme-one a:focus {background-color: var(--green-100)
-.theme-one a:hover {background-color:var(--green-100)
-.theme-one a:active {background-color:var (--green-100)
-}
-
+.theme-one a:focus {background-color: var(--green-100)}
+  .theme-one a:hover {background-color:var(--green-100)}
+.theme-one a:active {background-color:var (--green-100)}
+.theme-one {background-color: var (--ontrend-500);}
 /* ========= THEME ONE ========== */
 
 /* Background colour */
-.theme-one .col-1 h3 { color: var(--gray-700) }
-
+.theme-one .col-1 h3 { color: var(--white-000) }
+/*Global Font*/
+body {font-family: 'Playfair Display', serif}
 
 
 @font-face {
@@ -190,11 +189,9 @@ body { font-family: var(--global-font) }
     font-style:  normal;
     font-family: 'Circular-Loom';
   
-    src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+    src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');}
   
-  /*Global Font*/
-  body {font-family: 'Playfair Display', serif}
-
+  
 .theme-one {background-color: var(--ontrend-500)}
 
 @font-face {

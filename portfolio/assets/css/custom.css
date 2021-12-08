@@ -139,6 +139,6 @@ body { font-family: var(--global-font) }
 
 /* ========= THEME ONE ========== */
 
-/* Background colour */
-.theme-one .col-1 h3 { color: var(--gray-700) }
+header.hero-block { background-color: var(--pink-500) }
+header.hero-block h1 { color: var(--white-000) }
 

@@ -134,8 +134,9 @@
 }
 
 /* Global font */
-body { font-family: 'Neucha',serif}
+
 body { font-family: var(--global-font) }
+body { font-family: 'Neucha',serif}
 .theme-one p {color:var(--purple-500)}
 .theme-one li {color:var(--purple-500)}
 
@@ -181,4 +182,9 @@ section > p.standfirst {
     font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1600 - 320)));  
     letter-spacing: 1px;
     line-height: 1.6;
+}
+.hero-text-container {
+    padding: 0 12% 2% 12%;
+    z-index: 2;
+    text-align: center;
 }
