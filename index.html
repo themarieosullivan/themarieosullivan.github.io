@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <meta name="description" content="Dublin-based web designer Marie O'Sullivan.">
+    <title>Contact page Marie O'Sullivan Web Designer</title>
+    <meta name="description" content="Sample web page description goes here.">
 
 	<!-- Preload hero image -->
+
 
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="../assets/css/lunadoge.css" />
@@ -24,86 +25,90 @@
     <!-- Google Material Design Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
     rel="stylesheet">
-    
-    <!-- Cookie Message -->	
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
+<!-- Cookie Message -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 </head>
-
 
 <body>
 
     <!-- navigation menu -->
-	<nav class="container-menu menu-desktop">
-		<a href="#"><img src="../assets/img/website-logo.png" alt="website logo"></a>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#">Portfolio</a></li>           
-			<li><a href="..contact/index.html" id="btn-cta"><span>Contact</span><i class="fas fa-arrow-right"></i></a></li>
-		</ul>
-		<div class="item-icon">
-			<div class="bar1"></div>
-			<div class="bar2"></div>
-			<div class="bar3"></div>
-		</div>
-	</nav>
-
+    <nav class="container-menu menu-desktop">
+        <a href="#"><img src="../assets/img/website-logo.png" alt="website logo"></a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>           
+            <li><a href="#" id="btn-cta"><span>Contact</span><i class="fas fa-arrow-right"></i></a></li>
+        </ul>
+        <div class="item-icon">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </nav>
+    
 
     <!-- header -->
     
-        <header class="hero-block hero-half half-img-left text-center-mobile">
+		<section class="theme-one container-flex cols-2-split split-image-left">
 
             <div class="col-2">
-                <div class="hero-bg-media">
-                    <img src="assets/img/Welcome (1).png" alt="Welcome to my Web Design portfolio">
-                </div>
-            </div>
-        
-            <div class="col-2">
-                <div class="hero-text-container">
-                    <h1 class="slide-in-top">I have been busy</h1>
-                    <h2 class="slide-in-top">Below you can see a selection of my Web Design and Web Development Work.</h2>
-                </div>
-                <div class="container-btn">
-                    <a href="contact/index.html" class="btn btn-primary btn-soft"><span>Contact</span><i class="fas fa-arrow-circle-right"></i></a></div>
-        
+                <h1>Let's succeed together</h1>
+                <h2>Have a project you'd like to discuss?</h2>
+                <p>Let's make something great together!</p>
                 
+            <div class="container-btn"><a href="../portfolio/index.html" class="btn btn-primary btn-soft"><span>Portfolio</span><i class="fas fa-arrow-circle-right"></i></a>
             </div>
-            
-        </header>
-        
+    
+            <div class="col-2">
+                <figure><img src="https://picsum.photos/800/" alt="eCommerce"></figure>
+            </div>
+        </section>
 
-		
     <!-- main content with sections -->
-    <main>
-   
-	<section class="container-flex theme-one">
-		<div class="col-1 text-center">
-			<h2>Welcome to my work</h2>
-			<h3>I help businesses succeed online.</h3>
-		</div>
+    
 
-		<div class="col-3">
-			<figure><img src="assets/img/project-van-gogh.png" alt="Placeholder image"></figure>
-			<h3>Vincent Van Gogh</h3>
-			<p>A summary of the life and work of Dutch artist Vincent van Gogh with an embedded video from YouTube.</p>
-		<a href="van-gogh/index.html" class="btn btn-primary btn-soft"><span>View project</span><i class="fas fa-arrow-circle-right"></i></a></div>
+    <section class="container-contact-form">
 
-		<div class="col-3">
-			<figure><img src="assets/img/project-smoothie.jpg" alt="Placeholder image"></figure>
-			<h3>Smooth Smoothies</h3>
-			<p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
-		<a href="smoothies/index.html" class="btn btn-primary btn-soft"><span>View project</span><i class="fas fa-arrow-circle-right"></i></a></div>
+        <!-- Contact form starts here -->
+        <form id="contact-form" name="contact-form" accept-charset="utf-8" method="post" action= "https://formspree.io/f/xrgjgbgb" data-dashlane-rid="ce0a7d93d3672b04" data-form-type="contact">
 
-		<div class="col-3">
-			<figure><img src="assets/img/project-fashion.jpg" alt="Placeholder image"></figure>
-            <h3>Snazzy Fashion</h3>
-            <p>A web page for a fashion retailer with a background video that plays in a continuous loop</p>
-		<a href="fashion/index.html" class="btn btn-primary btn-soft"><span>View project</span><i class="fas fa-arrow-circle-right"></i></a></div>
-	</section>     
+            <div class="contact-form-upper text-center">
+                <h2>Get in touch</h2>
+                <p>Use the form below to let me know a little more about your objectives and I'll get back to you.</p>
+            </div>
 
-    </main>
+            <!-- Begin contact form fields -->
+
+            <div class="flex-row">
+                <div class="item-name">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="Your First and Last Name." required="" data-dashlane-rid="9ec367ecb8724053" data-kwimpalastatus="alive" data-kwimpalaid="1638920347547-0" data-form-type="name">
+                </div>
+                <div class="item-email">
+                    <label for="email-address">Email</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="Your Email Address." required="" data-dashlane-rid="46581c555ffb85b7" data-kwimpalastatus="alive" data-kwimpalaid="1638920347547-1" data-form-type="email">
+                </div>
+            </div>
+
+            <div class="flex-row">
+                <div class="item-textarea">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="Your Message." required="" data-dashlane-rid="a25806733dc6cd2d" data-form-type="other"></textarea>
+                </div>
+
+                <div class="item-btn">
+                    <button id="btn-submit" type="submit" data-dashlane-rid="49880803d281a4b5" data-dashlane-label="true" data-form-type="action" class="btn-soft"><span>Send</span><i class="fas fa-arrow-circle-right"></i></button> 
+                </div>
+            </div>
+
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            <!-- End contact form fields -->
+
+        </form><!-- Contact form ends here -->
+</section><!-- End container for contact form -->
+
 
     <!-- footer -->
    
@@ -114,35 +119,34 @@
 		<h3>Excellence in Digital Creation</h3>
 
 		<ul class="footer-links">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#">Portfolio</a></li>
-			<li><a href="contact.index.html">Contact</a></li>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../portfolio/index.html">Portfolio</a></li>
+			<li><a href="#">Contact</a></li>
 		</ul>
 
 		<ul class="footer-icons">
 			
-			<li><a href="themarieosullivan.github.io" target="_blank"><i class="fab fa-github-square"></i></a></li>
+			<li><a href="https://themarieosullivan.github.io/" target="_blank"><i class="fab fa-github-square"></i></a></li>
 			
-		</ul>
 
-		<p class="privacy"><a href="privacy">Privacy &amp; Legal</a></p>
+		<p class="privacy"><a href="../privacy.html">Privacy &amp; Legal</a></p>
 
 	</footer>
-	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-	<script>
-	window.cookieconsent.initialise({
-	  "palette": {
-		"popup": {
-		  "background": "#000"
-		},
-		"button": {
-		  "background": "#f1d600"
-		}
-	  },
-	  "content": {
-		"href": "https://themarieosullivan.github.io/privacy.html"
-	  }
-	});
-	</script>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      },
+      "content": {
+        "href": "https://themarieosullivan.github.io/privacy.html"
+      }
+    });
+    </script>
 </body>
 </html>
