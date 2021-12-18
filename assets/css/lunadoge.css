@@ -1579,7 +1579,7 @@ a:not(.btn):any-link {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 7px;
-    color: var(--blue-700);
+    color: var(--pink-500);
     transition: all 0.2s linear;
 }
 
@@ -1969,7 +1969,7 @@ footer p.privacy a:link, footer p.privacy a:hover {
     text-decoration-thickness: 2px;
     text-underline-offset: 7px;
     text-decoration-color: var(--white-000);
-    color: var(--white-000);
+    color: var(--pink-500);
     transition: all 0.2s linear;
 }
 
