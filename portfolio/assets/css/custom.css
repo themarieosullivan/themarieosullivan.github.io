@@ -137,10 +137,4 @@
 body { font-family: var(--global-font) }
 
 
-/* ========= THEME ONE ========== */
-
 header.hero-block { background-color: var(--pink-500) }
-header.hero-block h1 { color: var(--white-000) }
-.theme-one p {
-    color: var(--white-000);
-}
