@@ -71,8 +71,10 @@ header.hero-block { background-color: var(--blue-600) }
 .hero-block h2 { line-height: 1.2 }
 
 .hero-block h1 {
+    
     font-size: calc(48px + (72 - 48) * ((100vw - 320px) / (1920 - 320)));
     margin-bottom: 24px;
+    font-family: 'Klee One', sans-serif;
 }
 
 .hero-block h1.text-long {
@@ -1692,7 +1694,7 @@ a.btn-ghost:active {
 
 /* All screens */
 #contact-form {
-    background-color: var(--gray-200);
+    background-color: var(--pink-500);
 }
 
 /* Desktop */
