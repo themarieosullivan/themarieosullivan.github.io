@@ -138,3 +138,7 @@ body { font-family: var(--global-font) }
 
 
 header.hero-block { background-color: var(--pink-500) }
+.theme-one h2 {color: white}
+.theme-one p {
+    color: white;
+}

@@ -921,6 +921,7 @@ On large screens (and sometimes small screens too), the div child elements are t
 
 .col-1 h2 {
     font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
     font-size: calc(28px + (48 - 28) * ((100vw - 320px) / (1140 - 320)));
     line-height: 1.1;
     letter-spacing: -2px;
@@ -1631,7 +1632,7 @@ button > *:nth-child(2) { margin-left: 14px; margin-right: 0 }
 .btn-primary:visited {
     border: solid 2px #000; 
     color: #fff; 
-    background-color: #000; 
+    background-color: var(--ontrend-800); 
 } 
 
 a.btn-primary:focus, 
@@ -1796,7 +1797,7 @@ a.btn-ghost:active {
 
 #contact-form #btn-submit { 
 	float: right; 
-    background-color: var(--black-000);
+    background-color: var(--ontrend-800);
     color: var(--white-000);
 	font-weight: bold;
     padding: 12px 28px;
@@ -1896,6 +1897,7 @@ footer {
 /* Footer headings */
 footer h2 {
    font-weight: 700;
+   font-family: 'PT Sans', sans-serif;
    font-size: calc(26px + (48 - 26) * ((100vw - 320px)/(1920 - 320)));
    margin: 0 auto 16px auto;
    color: var(--white-000);
@@ -2114,7 +2116,7 @@ footer p.privacy a:hover, footer p.privacy a:active {
 .container-menu a#btn-cta:visited {
     border: solid 2px #000; 
     color: #fff; 
-    background-color: #000; 
+    background-color: var(--pink-500); 
 } 
 
 .container-menu a#btn-cta:focus, 

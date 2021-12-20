@@ -141,7 +141,10 @@ header.hero-block a.btn-primary:hover,
 header.hero-block a.btn-primary:active { background-color: var(--indigo-500) }
 header.hero-block { background-color: var(--pink-500) }
 header.hero-block { background-color: var(--pink-500) }
-
+.theme-one p {
+    color: white;
+    color: var (--white-000);
+}
 header.hero-block a.btn-secondary:focus,
 header.hero-block a.btn-secondary:hover,
 header.hero-block a.btn-secondary:active { background-color: var(--indigo-500) }
@@ -164,7 +167,10 @@ header.hero-block a.btn-secondary:active { background-color: var(--indigo-500) }
 #contact-form [type="email"] { background-color: var(--white-000) }
 #contact-form textarea { background-color: var(--white-000) }
 .container-contact-form { background-color: var(--white-000) }
-
+.theme-one p {
+    color: white;
+    color: var (--white-000);
+}
 
 footer {
     text-align: center;
