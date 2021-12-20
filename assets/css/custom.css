@@ -135,6 +135,68 @@
 
 /* Global font */
 body { font-family: var(--global-font) }
-
-
 header.hero-block { background-color: var(--pink-500) }
+header.hero-block a.btn-primary:focus,
+header.hero-block a.btn-primary:hover,
+header.hero-block a.btn-primary:active { background-color: var(--indigo-500) }
+header.hero-block { background-color: var(--pink-500) }
+header.hero-block { background-color: var(--pink-500) }
+
+header.hero-block a.btn-secondary:focus,
+header.hero-block a.btn-secondary:hover,
+header.hero-block a.btn-secondary:active { background-color: var(--indigo-500) }
+#contact-form [type="text"] { background-color: var(--pink-500) }
+#contact-form [type="email"] { background-color: var(--pink-500) }
+#contact-form textarea { background-color: var(--pink-500) }
+#contact-form [type="text"] { background-color: var(--pink-500) }
+#contact-form [type="email"] { background-color: var(--pink-500) }
+#contact-form textarea { background-color: var(--pink-500) }
+#contact-form [type="text"] { background-color: var(--white-000) }
+#contact-form [type="email"] { background-color: var(--white-000) }
+#contact-form textarea { background-color: var(--white-000) }
+#contact-form [type="text"] { background-color: var(--pink-500) }
+#contact-form [type="email"] { background-color: var(--pink-500) }
+#contact-form textarea { background-color: var(--pink-500) }
+#contact-form [type="text"] { background-color: var(--pink-500) }
+#contact-form [type="email"] { background-color: var(--pink-500) }
+#contact-form textarea { background-color: var(--pink-500) }
+#contact-form [type="text"] { background-color: var(--white-000) }
+#contact-form [type="email"] { background-color: var(--white-000) }
+#contact-form textarea { background-color: var(--white-000) }
+.container-contact-form { background-color: var(--pink-500) }
+
+
+footer {
+    text-align: center;
+            background-color: var (--ontrend-800)}
+
+    .container-menu a:link,
+    .container-menu a:visited { color: var(--pink-400) }
+    .container-menu a:focus,
+    .container-menu a:hover,
+    .container-menu a:active { color: var(--pink-100) }
+    footer h3 {
+        font-weight: normal;
+        font-style: italic;
+        color: var(--white-000);
+        margin: 0 auto 36px auto;
+        font-size: calc(20px + (32 - 20) * ((100vw - 320px)/(1920 - 320)));
+    }
+    footer h2 {
+        font-weight: 700;
+        font-size: calc(26px + (48 - 26) * ((100vw - 320px)/(1920 - 320)));
+        margin: 0 auto 16px auto;
+        color: var(--white-000);
+    }
+    footer ul.footer-links li a:link, footer ul.footer-links li a:visited {
+        font-size: calc(17px + (20 - 17) * ((100vw - 320px)/(1920 - 320)));
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 7px;
+        text-decoration-color: var(--white-000);
+        color:var(--pink-500);
+        transition: all 0.2s linear;
+    }
+    
+   
+
