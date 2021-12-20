@@ -139,6 +139,8 @@ header.hero-block { background-color: var(--pink-500) }
 header.hero-block a.btn-primary:focus,
 header.hero-block a.btn-primary:hover,
 header.hero-block a.btn-primary:active { background-color: var(--indigo-500) }
+header.hero-block { background-color: var(--pink-500) }
+header.hero-block { background-color: var(--pink-500) }
 
 header.hero-block a.btn-secondary:focus,
 header.hero-block a.btn-secondary:hover,
@@ -196,5 +198,5 @@ footer {
         transition: all 0.2s linear;
     }
     
-    *, *::
+   
 
