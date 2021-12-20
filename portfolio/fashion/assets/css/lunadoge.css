@@ -1052,6 +1052,13 @@ On large screens (and sometimes small screens too), the div child elements are t
     margin-left: 13px; padding-left: 6px; 
 }
 
+.text-center {
+    text-align: center!important;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
 /* All viewports: Paragraphs and lists */
 .col-4  p:last-child,
 .col-4 li:last-child { margin-bottom: 0 }
