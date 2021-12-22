@@ -2132,9 +2132,12 @@ footer p.privacy a:hover, footer p.privacy a:active {
 } 
 
 /* Hamburger icon */
-.container-menu .item-icon {
-    height: 40px;
-    margin-top: 16px;
+.container-menu .item-icon .bar1, .container-menu .item-icon .bar2, .container-menu .item-icon .bar3 {
+    width: 36px;
+    height: 4px;
+    margin: 7px 0;
+    transition: 0.4s;
+    background-color: white;
 }
 
 .container-menu .item-icon .bar1, 
@@ -2143,7 +2146,7 @@ footer p.privacy a:hover, footer p.privacy a:active {
     width: 36px; height: 4px; 
     margin: 7px 0; 
     transition: 0.4s;
-    background-color: #000;
+    background-color: white;
 }
 
 .change .bar1 { transform: rotate(-45deg) translate(-9px, 6px) }
