@@ -150,3 +150,6 @@ header.hero-block { background-color: var(--pink-500) }
 .theme-one a:not(.btn):focus { background-color: var(--green-100) } 
 .theme-one a:not(.btn):hover { background-color: var(--green-100) }
 .theme-one a:not(.btn):active { background-color: var(--green-100) }
+.container-menu .item-icon .bar1, .container-menu .item-icon .bar2, .container-menu .item-icon .bar3 {
+    background-color: #fff;
+    }
